@@ -343,7 +343,7 @@ const SideBar = ({ setSelected, selected, sidebarToggle }) => {
       />
       <File
         name="ContactCard"
-        href="#contact-card"
+        href="#contact"
         icon="JS"
         color="text-[#EAEA7F]"
         sub={3}
