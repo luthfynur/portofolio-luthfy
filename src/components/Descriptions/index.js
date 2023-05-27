@@ -1,5 +1,4 @@
 import { motion } from 'framer-motion';
-import LinkText from '../LinkText';
 import Photo from '../Photo';
 
 const Descriptions = ({
@@ -43,45 +42,7 @@ const Descriptions = ({
             viewport={{ once: true }}
             className="text-[5vw] sm:text-[2vw] font-ubuntucondensed text-center sm:text-left order-1 sm:order-2"
           >
-            Halo! Saya seorang web developer. Saya terbiasa membangun front-end
-            website menggunakan
-            <LinkText
-              href="https://reactjs.org/"
-              text="React"
-              selected={selected}
-            />{' '}
-            dengan bantuan framework css
-            <LinkText
-              href="https://tailwindcss.com/"
-              text="Tailwindcss"
-              selected={selected}
-            />
-            . Saya juga pernah menggunakan
-            <LinkText
-              href="https://mui.com/"
-              text="Material-UI"
-              selected={selected}
-            />{' '}
-            dan{' '}
-            <LinkText
-              href="https://ant.design/"
-              text="Ant Design"
-              selected={selected}
-            />{' '}
-            untuk project yang saya kerjakan. Di samping itu, saya juga pernah
-            membuat back-end untuk salah satu project saya menggunakan
-            <LinkText
-              href="https://nodejs.org/en/"
-              text="Node.js"
-              selected={selected}
-            />
-            dengan bantuan framework
-            <LinkText
-              href="https://expressjs.com/"
-              text="Expressjs"
-              selected={selected}
-            />
-            .
+            Halo! Saya seorang Web Developer.
           </motion.p>
         </div>
       </div>

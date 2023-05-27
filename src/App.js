@@ -5,6 +5,7 @@ import SideBar from './components/Sidebar';
 import Project from './components/Project';
 import Skill from './components/Skill';
 import Contact from './components/Contact';
+import Timeline from './components/Timeline';
 
 function App() {
   const [selected, setSelected] = useState('');
@@ -46,6 +47,13 @@ function App() {
           <Skill
             height="min-h-[80vh] sm:min-h-[50vh]"
             background="bg-black"
+            padding="p-[20px] sm:p-[50px]"
+            border="rounded-none"
+            selected={selected}
+          />
+           <Timeline
+            height="min-h-[80vh] sm:min-h-[50vh]"
+            background="bg-[#212121]"
             padding="p-[20px] sm:p-[50px]"
             border="rounded-none"
             selected={selected}

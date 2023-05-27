@@ -1,6 +1,70 @@
 import Table from '../Table';
 import { motion } from 'framer-motion';
 
+const skillData = [
+  {
+    name: 'HTML',
+    value: 'Competent',
+  },
+  {
+    name: 'CSS',
+    value: 'Competent',
+  },
+  {
+    name: 'JavaScript',
+    value: 'Competent',
+  },
+  {
+    name: 'TypeScript',
+    value: 'Competent',
+  },
+  {
+    name: 'Dart',
+    value: 'Beginner'
+  },
+  {
+    name: 'SQL',
+    value: 'Beginner',
+  },
+  {
+    name: 'ReactJS',
+    value: 'Competent',
+  },
+  {
+    name: 'VueJS',
+    value: 'Competent',
+  },
+  {
+    name: 'NodeJS',
+    value: 'Competent',
+  },
+  {
+    name: 'ExpressJS',
+    value: 'Competent',
+  },
+  {
+    name: 'NestJS',
+    value: 'Beginner',
+  },
+  {
+    name: "Flutter",
+    value: "Beginner"
+  },
+  {
+    name: 'MySQL',
+    value: 'Beginner',
+  },
+  {
+    name: 'MongoDB',
+    value: 'Competent',
+  },
+  {
+    name: 'Git',
+    value: 'Competent',
+  },
+];
+
+
 export default function Skill({
   height = '',
   border = '',
@@ -24,7 +88,7 @@ export default function Skill({
       >
         Skill
       </motion.h1>
-      <Table selected={selected} />
+      <Table selected={selected} data={skillData} headerName="Skill" headerValue="Level" />
     </section>
   );
 }
