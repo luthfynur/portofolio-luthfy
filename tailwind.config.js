@@ -12,6 +12,11 @@ module.exports = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
+      fontFamily: {
+        kleeone: ['Klee One'],
+        fredokaone: ['Fredoka One'],
+        ubuntucondensed: ['Ubuntu Condensed', 'sans-serif'],
+      },
     },
   },
   plugins: [],
