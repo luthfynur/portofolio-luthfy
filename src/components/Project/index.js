@@ -38,7 +38,7 @@ const Project = ({
         viewport={{ once: true }}
         className="text-[5vw] sm:text-[2vw] font-ubuntucondensed mb-4 text-center sm:text-left"
       >
-        Fokus dalam pengembangan backend, berikut beberapa project frontend yang saya kerjakan:
+        Berikut beberapa project frontend yang saya kerjakan:
       </motion.h1>
       <div className="grid grid-cols-1 lg:grid-cols-2 w-full justify-items-center gap-5 lg:gap-10">
         <ProjectCard

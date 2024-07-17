@@ -7,8 +7,12 @@ const data = [
     value: 'Lulus pendidikan S1 Program Studi Pendidikan Teknik Informatika dan Komputer Universitas Negeri Jakarta',
   },
   {
-    name: "1 Juli 2022 - 30 Juni 2023",
-    value: `Web Developer di PT. Qtera Mandiri. Keahlian: Pengembangan aplikasi web dengan Nodejs, Express Js, MongoDB, Mongoose ODM, Vue js. Pengembangan aplikasi mobile android dengan Flutter. Bahasa pemrograman yang digunakan: Javascript, Typescript dan Dart `
+    name: "Juli 2022 - Juni 2023",
+    value: `Programmer di PT Qtera Mandiri. Keahlian: Pengembangan aplikasi web dengan Nodejs, Express Js, MongoDB, Mongoose ODM, Vue js. Pengembangan aplikasi mobile android dengan Flutter. Bahasa pemrograman yang digunakan: Javascript, Typescript dan Dart `
+  },
+  {
+    name: "Juli 2023 - Juni 2024",
+    value: `Fullstack Developer di PT Magna Solusi Indonesia. Keahlian: Fixing, enhancement, maintenance, deployment aplikasi dengan: Java, MySQL, Postgresql, MSSQL, VB.NET, Springboot`
   },
 ];
 

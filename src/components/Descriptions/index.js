@@ -42,7 +42,7 @@ const Descriptions = ({
             viewport={{ once: true }}
             className="text-[5vw] sm:text-[2vw] font-ubuntucondensed text-center sm:text-left order-1 sm:order-2"
           >
-            Halo! Saya seorang Web Developer.
+            Halo! Saya seorang Fullstack Developer.
           </motion.p>
         </div>
       </div>

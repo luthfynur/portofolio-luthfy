@@ -8,8 +8,8 @@ export default function Table({ selected, data, headerName, headerValue }) {
     >
       <tbody>
         <tr className="border-2 border-black">
-          <th className="border-r-2 border-black">{headerName}</th>
-          <th>{headerValue}</th>
+          <th colSpan={2} className="border-r-2 border-black">{headerName}</th>
+         
         </tr>
         {data.map((element, idx) => {
           return (

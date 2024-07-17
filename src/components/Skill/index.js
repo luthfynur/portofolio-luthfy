@@ -4,23 +4,23 @@ import { motion } from 'framer-motion';
 const skillData = [
   {
     name: 'HTML',
-    value: 'Competent',
+    value: 'Java',
   },
   {
     name: 'CSS',
-    value: 'Competent',
+    value: 'Postgresql',
   },
   {
     name: 'JavaScript',
-    value: 'Competent',
+    value: 'VB.NET',
   },
   {
     name: 'TypeScript',
-    value: 'Competent',
+    value: 'MSSQL',
   },
   {
     name: 'Dart',
-    value: 'Beginner'
+    value: 'Springboot'
   },
   {
     name: 'SQL',
@@ -28,40 +28,25 @@ const skillData = [
   },
   {
     name: 'ReactJS',
-    value: 'Competent',
+    value: 'Git',
   },
   {
     name: 'VueJS',
-    value: 'Competent',
+    value: 'MongoDB',
   },
   {
     name: 'NodeJS',
-    value: 'Competent',
+    value: 'MySQL',
   },
   {
     name: 'ExpressJS',
-    value: 'Competent',
+    value: 'Flutter',
   },
   {
     name: 'NestJS',
-    value: 'Beginner',
+    value: 'CLI',
   },
-  {
-    name: "Flutter",
-    value: "Beginner"
-  },
-  {
-    name: 'MySQL',
-    value: 'Beginner',
-  },
-  {
-    name: 'MongoDB',
-    value: 'Competent',
-  },
-  {
-    name: 'Git',
-    value: 'Competent',
-  },
+
 ];
 
 
